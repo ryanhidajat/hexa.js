@@ -1,0 +1,52 @@
+.hexa li {
+float:left;
+display:inline-block;
+list-style:none;
+}
+
+.hexshape{
+    height: 200px;
+    visibility: hidden;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    }
+
+.hexrot {
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+            visibility: hidden;
+            display: block;
+            overflow: hidden;
+            visibility: visible;
+            width: 100%;
+            height: 100%;
+    }
+	
+.hexa img {
+ width:235px;
+ height:200px;
+ }
+ 
+ul {
+margin:40px 0 30px 90px !important;
+}
+ 
+.first { margin:0 0 0 -30px; }
+.hexa li:nth-child(odd) { margin:-2px 0 0 -58px; }
+.hexa li:nth-child(even) { margin:100px 0 0 -58px; }
+.evenline2 {
+	margin-top:0px !important;
+}
+.oddline2 {
+	margin-top:-102px !important;
+}
